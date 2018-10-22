@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menu1 = new System.Windows.Forms.MenuStrip();
             this.llibreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,12 +37,14 @@
             this.sociToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.llistaDesperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diesNoHàbilsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.welcome1 = new View.Welcome();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.menu1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // menu1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.llibreToolStripMenuItem,
             this.autorToolStripMenuItem,
             this.cToolStripMenuItem,
@@ -51,11 +53,11 @@
             this.sociToolStripMenuItem,
             this.llistaDesperaToolStripMenuItem,
             this.diesNoHàbilsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(742, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menu1.Location = new System.Drawing.Point(0, 0);
+            this.menu1.Name = "menu1";
+            this.menu1.Size = new System.Drawing.Size(742, 24);
+            this.menu1.TabIndex = 0;
+            this.menu1.Text = "menuStrip1";
             // 
             // llibreToolStripMenuItem
             // 
@@ -105,17 +107,25 @@
             this.diesNoHàbilsToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.diesNoHàbilsToolStripMenuItem.Text = "Dies no hàbils";
             // 
-            // Form1
+            // welcome1
+            // 
+            this.welcome1.Location = new System.Drawing.Point(12, 27);
+            this.welcome1.Name = "welcome1";
+            this.welcome1.Size = new System.Drawing.Size(718, 280);
+            this.welcome1.TabIndex = 1;
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 314);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Controls.Add(this.welcome1);
+            this.Controls.Add(this.menu1);
+            this.MainMenuStrip = this.menu1;
+            this.Name = "Main";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menu1.ResumeLayout(false);
+            this.menu1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,7 +133,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menu1;
         private System.Windows.Forms.ToolStripMenuItem llibreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem autorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
@@ -132,6 +142,8 @@
         private System.Windows.Forms.ToolStripMenuItem sociToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem llistaDesperaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diesNoHàbilsToolStripMenuItem;
+        private Welcome welcome1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
