@@ -1,0 +1,6 @@
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\bin\Debug\Model.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\bin\Debug\Model.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\obj\Debug\Model.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Model\obj\Debug\Model.pdb

@@ -1,0 +1,10 @@
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\bin\Debug\View.dll.config
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\bin\Debug\View.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\bin\Debug\View.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\View\obj\Debug\View.Main.resources
