@@ -15,3 +15,5 @@ C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Contr
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Controller\obj\Debug\Controller.csproj.CopyComplete
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Controller\obj\Debug\Controller.exe
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Controller\obj\Debug\Controller.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Controller\bin\Debug\UCBiblioteca.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\Controller\bin\Debug\UCBiblioteca.pdb

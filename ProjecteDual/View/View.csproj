@@ -82,5 +82,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UCBiblioteca\UCBiblioteca.csproj">
+      <Project>{128ac464-8a0d-48d5-9c3b-51c92db53071}</Project>
+      <Name>UCBiblioteca</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

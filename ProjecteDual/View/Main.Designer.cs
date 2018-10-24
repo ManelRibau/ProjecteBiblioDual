@@ -33,12 +33,11 @@
             this.autorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.préstecToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sancióToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sociToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.llistaDesperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diesNoHàbilsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tancarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.welcome1 = new View.Welcome();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,13 +48,13 @@
             this.autorToolStripMenuItem,
             this.cToolStripMenuItem,
             this.préstecToolStripMenuItem,
-            this.sancióToolStripMenuItem,
             this.sociToolStripMenuItem,
             this.llistaDesperaToolStripMenuItem,
-            this.diesNoHàbilsToolStripMenuItem});
+            this.diesNoHàbilsToolStripMenuItem,
+            this.tancarToolStripMenuItem});
             this.menu1.Location = new System.Drawing.Point(0, 0);
             this.menu1.Name = "menu1";
-            this.menu1.Size = new System.Drawing.Size(742, 24);
+            this.menu1.Size = new System.Drawing.Size(1068, 24);
             this.menu1.TabIndex = 0;
             this.menu1.Text = "menuStrip1";
             // 
@@ -83,12 +82,6 @@
             this.préstecToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.préstecToolStripMenuItem.Text = "Préstec";
             // 
-            // sancióToolStripMenuItem
-            // 
-            this.sancióToolStripMenuItem.Name = "sancióToolStripMenuItem";
-            this.sancióToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.sancióToolStripMenuItem.Text = "Sanció";
-            // 
             // sociToolStripMenuItem
             // 
             this.sociToolStripMenuItem.Name = "sociToolStripMenuItem";
@@ -107,20 +100,27 @@
             this.diesNoHàbilsToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.diesNoHàbilsToolStripMenuItem.Text = "Dies no hàbils";
             // 
+            // tancarToolStripMenuItem
+            // 
+            this.tancarToolStripMenuItem.Name = "tancarToolStripMenuItem";
+            this.tancarToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.tancarToolStripMenuItem.Text = "Tancar";
+            // 
             // welcome1
             // 
-            this.welcome1.Location = new System.Drawing.Point(12, 27);
+            this.welcome1.Location = new System.Drawing.Point(14, 27);
             this.welcome1.Name = "welcome1";
-            this.welcome1.Size = new System.Drawing.Size(718, 280);
+            this.welcome1.Size = new System.Drawing.Size(1042, 571);
             this.welcome1.TabIndex = 1;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 314);
+            this.ClientSize = new System.Drawing.Size(1068, 610);
             this.Controls.Add(this.welcome1);
             this.Controls.Add(this.menu1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menu1;
             this.Name = "Main";
             this.Text = "Form1";
@@ -133,17 +133,16 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menu1;
-        private System.Windows.Forms.ToolStripMenuItem llibreToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem autorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem préstecToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sancióToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sociToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem llistaDesperaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem diesNoHàbilsToolStripMenuItem;
-        private Welcome welcome1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        public System.Windows.Forms.MenuStrip menu1;
+        public System.Windows.Forms.ToolStripMenuItem llibreToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem autorToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem préstecToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem sociToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem llistaDesperaToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem diesNoHàbilsToolStripMenuItem;
+        public Welcome welcome1;
+        public System.Windows.Forms.ToolStripMenuItem tancarToolStripMenuItem;
     }
 }
 

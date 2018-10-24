@@ -66,6 +66,10 @@
       <Project>{69e2438c-3663-4bda-b705-9e259ae0d3d5}</Project>
       <Name>Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UCBiblioteca\UCBiblioteca.csproj">
+      <Project>{128ac464-8a0d-48d5-9c3b-51c92db53071}</Project>
+      <Name>UCBiblioteca</Name>
+    </ProjectReference>
     <ProjectReference Include="..\View\View.csproj">
       <Project>{3f59c1cf-cc5a-45cf-8646-de4780ff346c}</Project>
       <Name>View</Name>

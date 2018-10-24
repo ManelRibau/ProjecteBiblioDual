@@ -1,0 +1,13 @@
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\View.Welcome.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.csproj.GenerateResource.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\bin\Debug\UCBiblioteca.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\bin\Debug\UCBiblioteca.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.dll
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.pdb
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.csprojAssemblyReference.cache
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Llibre.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.ISBN.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Properties.Resources.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Autor.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.OnlyLetters.resources
