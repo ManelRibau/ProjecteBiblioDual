@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.Afegir = new System.Windows.Forms.GroupBox();
+            this.isbn1 = new UCBiblioteca.ISBN();
             this.Genere = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -42,7 +43,6 @@
             this.afegirLlibre = new System.Windows.Forms.RadioButton();
             this.Llista = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.isbn1 = new UCBiblioteca.ISBN();
             this.Afegir.SuspendLayout();
             this.Option.SuspendLayout();
             this.Llista.SuspendLayout();
@@ -64,6 +64,15 @@
             this.Afegir.Size = new System.Drawing.Size(239, 274);
             this.Afegir.TabIndex = 1;
             this.Afegir.TabStop = false;
+            // 
+            // isbn1
+            // 
+            this.isbn1.Enabled = false;
+            this.isbn1.ISBNText = "";
+            this.isbn1.Location = new System.Drawing.Point(60, 37);
+            this.isbn1.Name = "isbn1";
+            this.isbn1.Size = new System.Drawing.Size(152, 20);
+            this.isbn1.TabIndex = 6;
             // 
             // Genere
             // 
@@ -132,6 +141,7 @@
             // 
             // Option
             // 
+            this.Option.BackColor = System.Drawing.SystemColors.Control;
             this.Option.Controls.Add(this.eliminarLlibre);
             this.Option.Controls.Add(this.modificarLlibre);
             this.Option.Controls.Add(this.afegirLlibre);
@@ -193,15 +203,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(513, 334);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // isbn1
-            // 
-            this.isbn1.Enabled = false;
-            this.isbn1.ISBNText = "";
-            this.isbn1.Location = new System.Drawing.Point(60, 37);
-            this.isbn1.Name = "isbn1";
-            this.isbn1.Size = new System.Drawing.Size(152, 20);
-            this.isbn1.TabIndex = 6;
             // 
             // Llibre
             // 
