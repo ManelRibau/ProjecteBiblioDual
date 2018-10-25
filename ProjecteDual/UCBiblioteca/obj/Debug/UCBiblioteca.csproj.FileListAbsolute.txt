@@ -11,3 +11,4 @@ C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBib
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Properties.Resources.resources
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Autor.resources
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.OnlyLetters.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Login.resources
