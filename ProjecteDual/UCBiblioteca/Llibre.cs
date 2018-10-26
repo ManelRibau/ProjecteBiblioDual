@@ -17,6 +17,11 @@ namespace UCBiblioteca
             InitializeComponent();
         }
 
+        private void cancelar(object sender, EventArgs e)
+        {
+            
+        }
+
         private void afegirLlibre_CheckedChanged(object sender, EventArgs e)
         {
             if (afegirLlibre.Checked == true)
