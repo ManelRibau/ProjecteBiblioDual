@@ -19,7 +19,7 @@ namespace View
 
         private void llibreToolStripMenuItem_MouseHover(object sender, EventArgs e)
         {   
-            llibreToolStripMenuItem.ShowDropDown();
+            //llibreToolStripMenuItem.ShowDropDown();
         }
     }
 }

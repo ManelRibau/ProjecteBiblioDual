@@ -73,6 +73,16 @@ namespace UCBiblioteca.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap back_icon {
             get {
                 object obj = ResourceManager.GetObject("back_icon", resourceCulture);
@@ -86,6 +96,16 @@ namespace UCBiblioteca.Properties {
         internal static System.Drawing.Bitmap book__1_ {
             get {
                 object obj = ResourceManager.GetObject("book__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap books {
+            get {
+                object obj = ResourceManager.GetObject("books", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +206,16 @@ namespace UCBiblioteca.Properties {
         internal static System.Drawing.Bitmap prestec {
             get {
                 object obj = ResourceManager.GetObject("prestec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sebos_foto_pedro_vilela {
+            get {
+                object obj = ResourceManager.GetObject("sebos_foto-pedro-vilela", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

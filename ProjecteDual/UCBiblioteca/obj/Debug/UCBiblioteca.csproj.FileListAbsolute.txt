@@ -14,3 +14,4 @@ C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBib
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Login.resources
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Menu.resources
 C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.Cancel.resources
+C:\Users\Manel\source\repos\ProjBiblioteca\ProjecteBiblioDual\ProjecteDual\UCBiblioteca\obj\Debug\UCBiblioteca.MenuSuperior.resources

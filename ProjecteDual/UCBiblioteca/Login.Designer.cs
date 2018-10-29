@@ -36,24 +36,26 @@
             // usuari
             // 
             this.usuari.AutoSize = true;
-            this.usuari.Location = new System.Drawing.Point(11, 15);
+            this.usuari.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold);
+            this.usuari.Location = new System.Drawing.Point(75, 11);
             this.usuari.Name = "usuari";
-            this.usuari.Size = new System.Drawing.Size(70, 13);
+            this.usuari.Size = new System.Drawing.Size(91, 15);
             this.usuari.TabIndex = 0;
             this.usuari.Text = "Nom d\'Usuari";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(87, 15);
+            this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(46, 38);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(145, 20);
+            this.textBox1.Size = new System.Drawing.Size(145, 23);
             this.textBox1.TabIndex = 1;
             // 
             // Conect
             // 
-            this.Conect.Location = new System.Drawing.Point(14, 63);
+            this.Conect.Location = new System.Drawing.Point(46, 104);
             this.Conect.Name = "Conect";
-            this.Conect.Size = new System.Drawing.Size(218, 35);
+            this.Conect.Size = new System.Drawing.Size(145, 35);
             this.Conect.TabIndex = 2;
             this.Conect.Text = "Conectar";
             this.Conect.UseVisualStyleBackColor = true;
@@ -62,11 +64,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.Conect);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.usuari);
             this.Name = "Login";
-            this.Size = new System.Drawing.Size(243, 115);
+            this.Size = new System.Drawing.Size(262, 210);
             this.ResumeLayout(false);
             this.PerformLayout();
 

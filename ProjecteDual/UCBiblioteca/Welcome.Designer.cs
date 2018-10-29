@@ -33,26 +33,28 @@
             // 
             // login1
             // 
-            this.login1.Location = new System.Drawing.Point(762, 92);
+            this.login1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.login1.Location = new System.Drawing.Point(130, 117);
             this.login1.Name = "login1";
-            this.login1.Size = new System.Drawing.Size(243, 115);
-            this.login1.TabIndex = 2;
+            this.login1.Size = new System.Drawing.Size(262, 210);
+            this.login1.TabIndex = 0;
             // 
             // Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::UCBiblioteca.Properties.Resources.libros;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImage = global::UCBiblioteca.Properties.Resources.sebos_foto_pedro_vilela;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.login1);
             this.DoubleBuffered = true;
             this.Name = "Welcome";
-            this.Size = new System.Drawing.Size(1068, 610);
+            this.Size = new System.Drawing.Size(1103, 559);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
         public UCBiblioteca.Login login1;
     }
 }

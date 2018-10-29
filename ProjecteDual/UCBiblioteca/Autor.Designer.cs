@@ -38,9 +38,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Titol = new System.Windows.Forms.Label();
             this.Id = new System.Windows.Forms.Label();
-            this.isbn1 = new UCBiblioteca.ISBN();
-            this.onlyLetters1 = new UCBiblioteca.OnlyLetters();
             this.onlyLetters2 = new UCBiblioteca.OnlyLetters();
+            this.onlyLetters1 = new UCBiblioteca.OnlyLetters();
+            this.isbn1 = new UCBiblioteca.ISBN();
             this.Option.SuspendLayout();
             this.Llista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -152,14 +152,14 @@
             this.Id.TabIndex = 1;
             this.Id.Text = "ID";
             // 
-            // isbn1
+            // onlyLetters2
             // 
-            this.isbn1.Enabled = false;
-            this.isbn1.ISBNText = "";
-            this.isbn1.Location = new System.Drawing.Point(60, 37);
-            this.isbn1.Name = "isbn1";
-            this.isbn1.Size = new System.Drawing.Size(152, 20);
-            this.isbn1.TabIndex = 6;
+            this.onlyLetters2.Enabled = false;
+            this.onlyLetters2.Location = new System.Drawing.Point(60, 93);
+            this.onlyLetters2.Name = "onlyLetters2";
+            this.onlyLetters2.OnlyLettersText = "";
+            this.onlyLetters2.Size = new System.Drawing.Size(152, 20);
+            this.onlyLetters2.TabIndex = 8;
             // 
             // onlyLetters1
             // 
@@ -170,14 +170,14 @@
             this.onlyLetters1.Size = new System.Drawing.Size(152, 20);
             this.onlyLetters1.TabIndex = 7;
             // 
-            // onlyLetters2
+            // isbn1
             // 
-            this.onlyLetters2.Enabled = false;
-            this.onlyLetters2.Location = new System.Drawing.Point(60, 93);
-            this.onlyLetters2.Name = "onlyLetters2";
-            this.onlyLetters2.OnlyLettersText = "";
-            this.onlyLetters2.Size = new System.Drawing.Size(152, 20);
-            this.onlyLetters2.TabIndex = 8;
+            this.isbn1.Enabled = false;
+            this.isbn1.ISBNText = "";
+            this.isbn1.Location = new System.Drawing.Point(60, 37);
+            this.isbn1.Name = "isbn1";
+            this.isbn1.Size = new System.Drawing.Size(152, 20);
+            this.isbn1.TabIndex = 6;
             // 
             // Autor
             // 
@@ -187,7 +187,7 @@
             this.Controls.Add(this.Llista);
             this.Controls.Add(this.Option);
             this.Name = "Autor";
-            this.Size = new System.Drawing.Size(1068, 610);
+            this.Size = new System.Drawing.Size(1103, 559);
             this.Option.ResumeLayout(false);
             this.Option.PerformLayout();
             this.Llista.ResumeLayout(false);

@@ -79,6 +79,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuSuperior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuSuperior.Designer.cs">
+      <DependentUpon>MenuSuperior.cs</DependentUpon>
+    </Compile>
     <Compile Include="OnlyLetters.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSuperior.resx">
+      <DependentUpon>MenuSuperior.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OnlyLetters.resx">
       <DependentUpon>OnlyLetters.cs</DependentUpon>
@@ -181,6 +190,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sebos_foto-pedro-vilela.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
